@@ -7,6 +7,6 @@ done
 
 for a in proteomes.fasta
 do
-hmmsearch [-A1] alignedtransporters $a
+hmmsearch [-A1] alignedtransporters $a >> hits.txt
 done
 
